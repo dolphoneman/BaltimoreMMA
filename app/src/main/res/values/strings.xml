@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">MMA of Baltimore</string>
     <string name="boxing">Boxing</string>
-    <string name="bjj">Brazilian Jiu Jitsu</string>
+    <string name="bjj">BJJ</string>
     <string name="kidfriendly">Kid Friendly</string>
     <string name="muaythia">Muay Thai</string>
-    <string name="selectionscreen">Selection Screen</string>
+    <string name="selectionscreen">Menu</string>
 
 
 

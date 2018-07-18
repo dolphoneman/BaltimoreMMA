@@ -56,7 +56,7 @@ public class GymFragmentPagerAdapter extends FragmentPagerAdapter {
             return mContext.getString(R.string.boxing);
         } else if (position == 2) {
             return mContext.getString(R.string.bjj);
-        } else if (position == 2) {
+        } else if (position == 3) {
             return mContext.getString(R.string.kidfriendly);
         }   else {
             return mContext.getString(R.string.muaythia);

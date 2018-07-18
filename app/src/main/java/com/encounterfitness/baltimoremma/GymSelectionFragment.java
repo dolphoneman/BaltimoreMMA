@@ -32,10 +32,10 @@ public class GymSelectionFragment extends Fragment {
 
         // Set a click listener on the boxing View
         boxing.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers View is clicked on.
+            // The code in this method will be executed when the boxing View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent boxingIntent = new Intent(GymSelection.this, Boxing.class);
+                Intent boxingIntent = new Intent(getActivity(), Boxing.class);
                 startActivity(boxingIntent);
             }
         });
@@ -46,10 +46,10 @@ public class GymSelectionFragment extends Fragment {
 
         //Set a click listener on the bjj View
         bjj.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers View is clicked on.
+            // The code in this method will be executed when the BJJ View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent bjjIntent = new Intent(GymSelection.this, BrazilianJiuJitsu.class);
+                Intent bjjIntent = new Intent(getActivity(), BrazilianJiuJitsu.class);
                 startActivity(bjjIntent);
             }
         });
@@ -59,10 +59,10 @@ public class GymSelectionFragment extends Fragment {
 
         //Set a click listener on the kid friendly View
         kids.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers View is clicked on.
+            // The code in this method will be executed when the Kids View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent kidsIntent = new Intent(GymSelection.this, KidFriendly.class);
+                Intent kidsIntent = new Intent(getActivity(), KidFriendly.class);
                 startActivity(kidsIntent);
             }
         });
@@ -72,10 +72,10 @@ public class GymSelectionFragment extends Fragment {
 
         //Set a click listener on the muay thai View
         muaythai.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers View is clicked on.
+            // The code in this method will be executed when the muay thai View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent muaythaiIntent = new Intent(GymSelection.this, MuayThai.class);
+                Intent muaythaiIntent = new Intent(getActivity(), MuayThai.class);
                 startActivity(muaythaiIntent);
             }
         });
